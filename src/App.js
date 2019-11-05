@@ -8,7 +8,7 @@ function App() {
       <h1>Instructions:</h1>
       <p>
         Create a mini game where clicking the button generates several hand cards.<br />
-        Please be sure to fork this repo, remove these instructions and validate your code.
+        Please be sure to fork this repo and update the readme file with your notes.
       </p>
       <ul>
         <li>A hand has 7 cards</li>
@@ -21,7 +21,7 @@ function App() {
       </ul>
       <h5>Extra</h5>
       <ul>
-        <li>Option to add more hand to the game (and remove)</li>
+        <li>option to add or remove hands 2-4</li>
         <li>Tests</li>
       </ul>
 
