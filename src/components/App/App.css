@@ -1,0 +1,45 @@
+.hand-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  margin: 5px;
+  border: 2px solid gray;
+}
+
+.hand-wrapper.best-score {
+  animation: pulse 1s infinite;
+}
+
+.hand {
+  display: flex;
+}
+
+.card-wrapper {
+  display: flex;
+  margin: 5px;
+}
+
+.card {
+  height: 125px;
+  width: 100px;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.01);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

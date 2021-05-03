@@ -8,13 +8,6 @@ h1 {
     text-shadow: 1px 2px #444;
 }
 
-/* Cards */
-.card {
-    height: 125px;
-    width: 100px;
-}
-
-
 /* Button */
 .play-button {
     background-color: #4b1124;
@@ -30,4 +23,7 @@ h1 {
     top: 4px;
     left: 4px;
     box-shadow: none;
+}
+.play-button:disabled {
+    cursor: not-allowed;
 }
