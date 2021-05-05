@@ -77,7 +77,6 @@ export const dealCards = (state: AppStateType, dispatch: Dispatch<DealCardsActio
   const handsCards = makeHands(deck, state.handsCount, CARDS_PER_HAND);
   const pairedIndexesByHand = handsCards.map(findPairedIndexes);
   const handsScores = pairedIndexesByHand.map((pairs) => pairs.length);
-  debugger
   const bestScoreHands = findBestScoreIndexes(handsScores);
   const colorsByCardIndex = pairedIndexesByHand.map(colorToCardIndex);
 
